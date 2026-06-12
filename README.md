@@ -212,7 +212,7 @@ target/karate-reports/karate-summary.html
 
 ## Autor
 
-Luis Campos
+Jorge Martín Huaman Quispe
 
 QA Automation Engineer
 
