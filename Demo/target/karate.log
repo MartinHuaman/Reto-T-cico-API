@@ -1,0 +1,3233 @@
+17:34:17.191 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:34:18.790 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:34:18.818 [main] ERROR com.intuit.karate - classpath:examples/chucknorris/chucknorris.feature:6
+Given "https://api.chucknorris.io/jokes/random"
+no step-definition method match found for: "https://api.chucknorris.io/jokes/random"
+classpath:examples/chucknorris/chucknorris.feature:6
+17:34:40.180 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:34:41.630 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:34:41.990 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:34:43.704 [main] DEBUG com.intuit.karate - response time in milliseconds: 1708
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:34:43 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=WEDXnmGd3qiOaRfQbn8Dm0r9P8Bw5ldzoWpidJWIjiI%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768689283"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=WEDXnmGd3qiOaRfQbn8Dm0r9P8Bw5ldzoWpidJWIjiI%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768689283"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=69,cfOrigin;dur=860
+1 < CF-RAY: 9bf95252bc065040-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:26.766831","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"WhjTkTXkTu6m_-ZTAW_9yQ","updated_at":"2020-01-05 13:42:26.766831","url":"https://api.chucknorris.io/jokes/WhjTkTXkTu6m_-ZTAW_9yQ","value":"Chuck Norris once farted in his sleep loud enough to awaken a sleeping volcano. Maui was then formed."}
+
+17:49:10.862 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:49:12.185 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:49:12.434 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:49:14.013 [main] DEBUG com.intuit.karate - response time in milliseconds: 1572
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:49:14 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=QScLUPMrcN%2BHLU%2Bz4P6g9oC9VSSOFP9m639Sq7uGViQ%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690154"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=QScLUPMrcN%2BHLU%2Bz4P6g9oC9VSSOFP9m639Sq7uGViQ%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690154"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=77,cfOrigin;dur=882
+1 < CF-RAY: 9bf96791ff381fe6-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:20.262289","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"4SG5VcE_QairyH_WkffUKA","updated_at":"2020-01-05 13:42:20.262289","url":"https://api.chucknorris.io/jokes/4SG5VcE_QairyH_WkffUKA","value":"Chuck Norris cuts his fingernails with a hatchet."}
+
+17:49:14.085 [main] ERROR com.intuit.karate - classpath:examples/chucknorris/chucknorris.feature:10
+And match response.value == "Chuck Norris once farted in his sleep loud enough to awaken a sleeping volcano. Maui was then formed."
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Chuck Norris cuts his fingernails with a hatchet.'
+  'Chuck Norris once farted in his sleep loud enough to awaken a sleeping volcano. Maui was then formed.'
+
+classpath:examples/chucknorris/chucknorris.feature:10
+17:50:28.929 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:50:30.151 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:50:30.365 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.chucknorris.io/jokes/random
+1 > Host: api.chucknorris.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:50:31.255 [main] DEBUG com.intuit.karate - response time in milliseconds: 885
+1 < 200
+1 < Date: Sat, 17 Jan 2026 22:50:31 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=XGmymkNDSfcyWmnsdHQkNpttXEe%2BIt2MLg%2F5UaZDlQs%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1768690231"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=XGmymkNDSfcyWmnsdHQkNpttXEe%2BIt2MLg%2F5UaZDlQs%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1768690231"
+1 < Server: cloudflare
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < Via: 1.1 heroku-router
+1 < X-Frame-Options: DENY
+1 < cf-cache-status: DYNAMIC
+1 < Server-Timing: cfCacheStatus;desc="DYNAMIC"
+1 < Server-Timing: cfEdge;dur=8,cfOrigin;dur=225
+1 < CF-RAY: 9bf969794eb38bc2-EZE
+1 < alt-svc: h3=":443"; ma=86400
+{"categories":[],"created_at":"2020-01-05 13:42:23.880601","icon_url":"https://api.chucknorris.io/img/avatar/chuck-norris.png","id":"ll_VrS-LQZ6OVGPccyCbgw","updated_at":"2020-01-05 13:42:23.880601","url":"https://api.chucknorris.io/jokes/ll_VrS-LQZ6OVGPccyCbgw","value":"Old Faithful is Chuck Norris' drainpipe"}
+
+22:13:57.819 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+22:13:57.891 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:13:59.023 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:13:59.102 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:10
+And body { "username" : "admin", "password" : "password123"}
+no step-definition method match found for: body { "username" : "admin", "password" : "password123"}
+classpath:examples/herokuapp/Auth.feature:10
+22:13:59.136 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:13:59.139 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:19
+And body { "username" : "admin123", "password" : "password123123123"}
+no step-definition method match found for: body { "username" : "admin123", "password" : "password123123123"}
+classpath:examples/herokuapp/Auth.feature:19
+22:14:45.475 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+22:14:45.539 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:14:46.335 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:14:46.634 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+22:14:47.333 [main] DEBUG com.intuit.karate - response time in milliseconds: 697
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 03:14:46 GMT
+1 < Etag: W/"1b-u8rpJF5eEFrsvTzJAWH6GEniY/Q"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=3ALdCEBzfq05hMYWTt1OQVPCpl%2FJsUx7VrfdvJE8zY0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781234086"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=3ALdCEBzfq05hMYWTt1OQVPCpl%2FJsUx7VrfdvJE8zY0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781234086"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"d50a78dec2e3657"}
+
+22:14:47.369 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:14:47.372 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 54
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin123","password":"password123123123"}
+
+22:14:47.724 [main] DEBUG com.intuit.karate - response time in milliseconds: 351
+1 < 200
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 03:14:46 GMT
+1 < Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=3ALdCEBzfq05hMYWTt1OQVPCpl%2FJsUx7VrfdvJE8zY0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781234086"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=3ALdCEBzfq05hMYWTt1OQVPCpl%2FJsUx7VrfdvJE8zY0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781234086"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"reason":"Bad credentials"}
+
+22:14:47.741 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:21
+Then status 401
+status code was: 200, expected: 401, response time in milliseconds: 351, url: https://restful-booker.herokuapp.com/auth, response: 
+{"reason":"Bad credentials"}
+classpath:examples/herokuapp/Auth.feature:21
+22:16:42.617 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+22:16:42.678 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:16:43.482 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:16:43.728 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+22:16:44.451 [main] DEBUG com.intuit.karate - response time in milliseconds: 720
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 03:16:43 GMT
+1 < Etag: W/"1b-MiUxH07j3dRMDcxn7oSXKYl+yog"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=TGIQiKzlTXdMzRzmzb%2BDGqAqCktQkkm98iKrcWtrkAM%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781234203"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=TGIQiKzlTXdMzRzmzb%2BDGqAqCktQkkm98iKrcWtrkAM%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781234203"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"c8a06fffb0056ea"}
+
+22:16:44.485 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:16:44.487 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 54
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin123","password":"password123123123"}
+
+22:16:44.881 [main] DEBUG com.intuit.karate - response time in milliseconds: 391
+1 < 200
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 03:16:44 GMT
+1 < Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=TXkJ%2B5O%2F5B8NGJYz9%2FNXMKbafMpKspAHuIVHJ0agExs%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781234204"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=TXkJ%2B5O%2F5B8NGJYz9%2FNXMKbafMpKspAHuIVHJ0agExs%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781234204"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"reason":"Bad credentials"}
+
+22:43:06.233 [main] INFO  com.intuit.karate.Runner - karate.env is: 'stg'
+22:43:06.303 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:43:07.558 [main] INFO  com.intuit.karate - karate.env system property was: stg 
+22:43:07.841 [main] ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 187 milliseconds for url: /auth
+22:43:07.841 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:11
+When method post
+http call failed after 187 milliseconds for url: /auth
+org.apache.http.ProtocolException: Target host is not specified
+classpath:examples/herokuapp/Auth.feature:11
+22:43:07.864 [main] INFO  com.intuit.karate - karate.env system property was: stg 
+22:43:07.879 [main] DEBUG com.intuit.karate - request:
+1 > POST https://stg-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 54
+1 > Host: stg-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin123","password":"password123123123"}
+
+22:43:08.732 [main] DEBUG com.intuit.karate - response time in milliseconds: 850
+1 < 404
+1 < Content-Length: 548
+1 < Cache-Control: no-cache, no-store
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: 2026-06-12 03:43:07.985778686 +0000 UTC
+1 < Server: heroku-router
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+
+22:43:08.749 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:21
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 850, url: https://stg-booker.herokuapp.com/auth, response: 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+classpath:examples/herokuapp/Auth.feature:21
+22:43:26.734 [main] INFO  com.intuit.karate.Runner - karate.env is: 'stg'
+22:43:26.796 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:43:27.784 [main] INFO  com.intuit.karate - karate.env system property was: stg 
+22:43:28.032 [main] DEBUG com.intuit.karate - request:
+1 > POST https://stg-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: stg-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+22:43:28.720 [main] DEBUG com.intuit.karate - response time in milliseconds: 686
+1 < 404
+1 < Content-Length: 548
+1 < Cache-Control: no-cache, no-store
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: 2026-06-12 03:43:27.979566644 +0000 UTC
+1 < Server: heroku-router
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+
+22:43:28.733 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:12
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 686, url: https://stg-booker.herokuapp.com/auth, response: 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+classpath:examples/herokuapp/Auth.feature:12
+22:43:28.758 [main] INFO  com.intuit.karate - karate.env system property was: stg 
+22:43:28.763 [main] DEBUG com.intuit.karate - request:
+1 > POST https://stg-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 54
+1 > Host: stg-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin123","password":"password123123123"}
+
+22:43:29.108 [main] DEBUG com.intuit.karate - response time in milliseconds: 345
+1 < 404
+1 < Content-Length: 548
+1 < Cache-Control: no-cache, no-store
+1 < Content-Type: text/html; charset=utf-8
+1 < Date: 2026-06-12 03:43:28.375760021 +0000 UTC
+1 < Server: heroku-router
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+
+22:43:29.111 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:21
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 345, url: https://stg-booker.herokuapp.com/auth, response: 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+classpath:examples/herokuapp/Auth.feature:21
+22:44:32.749 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+22:44:32.812 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:44:33.682 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:44:33.908 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+22:44:34.573 [main] DEBUG com.intuit.karate - response time in milliseconds: 662
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 03:44:33 GMT
+1 < Etag: W/"1b-ndCOWNdACPewrEIAik90J6CYX/4"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=xDzZiCEVCbzJ4vwS48fVEsCQK5zEkzuX%2BmclVurZz%2BY%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781235873"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=xDzZiCEVCbzJ4vwS48fVEsCQK5zEkzuX%2BmclVurZz%2BY%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781235873"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"1c9f91588032cce"}
+
+22:44:34.599 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:44:34.602 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 54
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin123","password":"password123123123"}
+
+22:44:34.984 [main] DEBUG com.intuit.karate - response time in milliseconds: 381
+1 < 200
+1 < Content-Length: 28
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 03:44:34 GMT
+1 < Etag: W/"1c-J3EiwfZwVQjKTKvpvazUfTni8fI"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=H5YQo0Kuyepx0RZujt2rrOvqi8PBlNIaLjtIDYq84I0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781235874"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=H5YQo0Kuyepx0RZujt2rrOvqi8PBlNIaLjtIDYq84I0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781235874"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"reason":"Bad credentials"}
+
+22:58:36.228 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+22:58:36.296 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:58:37.313 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:58:37.534 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/%3CID%3E
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:58:38.234 [main] DEBUG com.intuit.karate - response time in milliseconds: 696
+1 < 404
+1 < Content-Length: 9
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 03:58:37 GMT
+1 < Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=J2Xl8t6N5zyxB5opz8hT4Lx4GgNDEn9ovm0jadB6mfk%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781236717"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=J2Xl8t6N5zyxB5opz8hT4Lx4GgNDEn9ovm0jadB6mfk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781236717"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+Not Found
+
+22:58:38.258 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Booking.feature:11
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 696, url: https://restful-booker.herokuapp.com/booking/%3CID%3E, response: 
+Not Found
+classpath:examples/herokuapp/Booking.feature:11
+22:58:38.281 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:58:38.285 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/%3CID%3E
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:58:38.624 [main] DEBUG com.intuit.karate - response time in milliseconds: 338
+1 < 404
+1 < Content-Length: 9
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 03:58:37 GMT
+1 < Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=J2Xl8t6N5zyxB5opz8hT4Lx4GgNDEn9ovm0jadB6mfk%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781236717"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=J2Xl8t6N5zyxB5opz8hT4Lx4GgNDEn9ovm0jadB6mfk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781236717"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+Not Found
+
+22:58:38.626 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Booking.feature:11
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 338, url: https://restful-booker.herokuapp.com/booking/%3CID%3E, response: 
+Not Found
+classpath:examples/herokuapp/Booking.feature:11
+22:59:28.725 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+22:59:28.785 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:59:29.669 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:59:29.861 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:59:30.640 [main] DEBUG com.intuit.karate - response time in milliseconds: 776
+1 < 200
+1 < Content-Length: 172
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 03:59:29 GMT
+1 < Etag: W/"ac-97Of5AqrQBcUBB25WoFp3mXbNL0"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=%2FcOTPWC%2BklxbH50JZpZ%2BQsPgbib4diKFwLENwJAeC9o%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781236769"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=%2FcOTPWC%2BklxbH50JZpZ%2BQsPgbib4diKFwLENwJAeC9o%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781236769"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Eric","lastname":"Ericsson","totalprice":288,"depositpaid":true,"bookingdates":{"checkin":"2015-06-14","checkout":"2019-06-21"},"additionalneeds":"Breakfast"}
+
+22:59:30.686 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Booking.feature:17
+And match $.checkin == "#notnull"
+match failed: EQUALS
+
+classpath:examples/herokuapp/Booking.feature:17
+22:59:30.710 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+22:59:30.712 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:59:31.057 [main] DEBUG com.intuit.karate - response time in milliseconds: 343
+1 < 200
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 03:59:30 GMT
+1 < Etag: W/"aa-0fr7XABxvJQf4CCB4j0cTSZQQ/o"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=il47rzH2KOWG5h4%2FdDZ68ixQR%2BMFWOxlKWJ08Mh0nJc%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781236770"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=il47rzH2KOWG5h4%2FdDZ68ixQR%2BMFWOxlKWJ08Mh0nJc%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781236770"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Susan","lastname":"Smith","totalprice":776,"depositpaid":true,"bookingdates":{"checkin":"2015-08-12","checkout":"2023-01-21"},"additionalneeds":"Breakfast"}
+
+22:59:31.068 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Booking.feature:17
+And match $.checkin == "#notnull"
+match failed: EQUALS
+
+classpath:examples/herokuapp/Booking.feature:17
+23:00:41.332 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:00:41.393 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:00:42.447 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:00:42.649 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:00:43.289 [main] DEBUG com.intuit.karate - response time in milliseconds: 635
+1 < 200
+1 < Content-Length: 172
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:00:42 GMT
+1 < Etag: W/"ac-97Of5AqrQBcUBB25WoFp3mXbNL0"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ui%2Bz1y3ljGORRjC1KHeA0EioedIapdTdpQxe6Nz0rZs%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781236842"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Ui%2Bz1y3ljGORRjC1KHeA0EioedIapdTdpQxe6Nz0rZs%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781236842"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Eric","lastname":"Ericsson","totalprice":288,"depositpaid":true,"bookingdates":{"checkin":"2015-06-14","checkout":"2019-06-21"},"additionalneeds":"Breakfast"}
+
+23:00:43.354 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:00:43.358 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:00:43.707 [main] DEBUG com.intuit.karate - response time in milliseconds: 347
+1 < 200
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:00:42 GMT
+1 < Etag: W/"aa-0fr7XABxvJQf4CCB4j0cTSZQQ/o"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Ui%2Bz1y3ljGORRjC1KHeA0EioedIapdTdpQxe6Nz0rZs%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781236842"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Ui%2Bz1y3ljGORRjC1KHeA0EioedIapdTdpQxe6Nz0rZs%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781236842"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Susan","lastname":"Smith","totalprice":776,"depositpaid":true,"bookingdates":{"checkin":"2015-08-12","checkout":"2023-01-21"},"additionalneeds":"Breakfast"}
+
+23:05:44.906 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:05:44.967 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:05:45.805 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:05:45.980 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:05:46.644 [main] DEBUG com.intuit.karate - response time in milliseconds: 662
+1 < 200
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:05:45 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=A2al1Gdj57uApFr5q4Yz8nA4sBGjcoyRk%2Bo8sqGv8Q4%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781237145"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=A2al1Gdj57uApFr5q4Yz8nA4sBGjcoyRk%2Bo8sqGv8Q4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781237145"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+23:05:46.709 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:05:46.713 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:05:47.051 [main] DEBUG com.intuit.karate - response time in milliseconds: 338
+1 < 404
+1 < Content-Length: 9
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:05:46 GMT
+1 < Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=N0Sfxz5Pj3iZUL1xGDVJW1GwuNnCJq6oG7OdkpK7Au4%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781237146"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=N0Sfxz5Pj3iZUL1xGDVJW1GwuNnCJq6oG7OdkpK7Au4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781237146"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+Not Found
+
+23:05:47.066 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Booking.feature:11
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 338, url: https://restful-booker.herokuapp.com/booking/2, response: 
+Not Found
+classpath:examples/herokuapp/Booking.feature:11
+23:08:02.581 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:08:02.647 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:08:03.569 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:08:03.755 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:08:04.479 [main] DEBUG com.intuit.karate - response time in milliseconds: 722
+1 < 200
+1 < Content-Length: 170
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:08:03 GMT
+1 < Etag: W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=cUeze14NH76I4h9uRVoqrSFSxcANuDfPa%2BNlJ4Kt3oQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781237283"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=cUeze14NH76I4h9uRVoqrSFSxcANuDfPa%2BNlJ4Kt3oQ%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781237283"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+23:08:04.535 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:08:04.538 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:08:04.925 [main] DEBUG com.intuit.karate - response time in milliseconds: 387
+1 < 404
+1 < Content-Length: 9
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:08:04 GMT
+1 < Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=9vu2cXqqkAX2m2x%2FOBwmHKnBnit6Qulod8rfMSAig7w%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781237284"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=9vu2cXqqkAX2m2x%2FOBwmHKnBnit6Qulod8rfMSAig7w%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781237284"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+Not Found
+
+23:28:51.811 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:28:51.874 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:28:52.724 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:28:52.776 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+23:28:52.784 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+23:28:52.785 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:6
+* def Auth = call read('classpath:examples/herokuapp/Auth.feature')
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+classpath:examples/herokuapp/UpdateBooking.feature:6
+23:28:52.808 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:28:52.824 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+23:28:52.836 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+23:28:52.837 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:6
+* def Auth = call read('classpath:examples/herokuapp/Auth.feature')
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+classpath:examples/herokuapp/UpdateBooking.feature:6
+23:31:00.599 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:31:00.672 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:31:01.607 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:31:01.696 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+23:31:01.707 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+23:31:01.708 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:6
+* def Auth = call read('classpath:examples/herokuapp/Auth.feature')
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+classpath:examples/herokuapp/UpdateBooking.feature:6
+23:31:01.745 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:31:01.769 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+23:31:01.779 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+23:31:01.780 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:6
+* def Auth = call read('classpath:examples/herokuapp/Auth.feature')
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth.feature:4
+classpath:examples/herokuapp/UpdateBooking.feature:6
+23:33:16.377 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:33:16.441 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:33:17.427 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:33:17.490 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth/Auth.feature:5
+Given url hostherokuapp + "/auth"
+js failed:
+>>>>
+01: hostherokuapp + "/auth"
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth/Auth.feature:5
+23:33:17.493 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:6
+* def Auth = call read('classpath:examples/herokuapp/Auth/Auth.feature')
+js failed:
+>>>>
+01: hostherokuapp + "/auth"
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth/Auth.feature:5
+classpath:examples/herokuapp/UpdateBooking.feature:6
+23:33:17.512 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:33:17.519 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/Auth/Auth.feature:5
+Given url hostherokuapp + "/auth"
+js failed:
+>>>>
+01: hostherokuapp + "/auth"
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth/Auth.feature:5
+23:33:17.519 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:6
+* def Auth = call read('classpath:examples/herokuapp/Auth/Auth.feature')
+js failed:
+>>>>
+01: hostherokuapp + "/auth"
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/Auth/Auth.feature:5
+classpath:examples/herokuapp/UpdateBooking.feature:6
+23:34:12.233 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:34:12.300 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:34:13.479 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:34:13.753 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:34:14.569 [main] DEBUG com.intuit.karate - response time in milliseconds: 813
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:34:13 GMT
+1 < Etag: W/"1b-9J1/ZCBRmd5OX0Jxe6sIxiUGojY"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=GbxSCpoeim%2Bq7%2BcaJATuJGDCu5kOxypQp5zT6%2FzJM%2BE%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781238853"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=GbxSCpoeim%2Bq7%2BcaJATuJGDCu5kOxypQp5zT6%2FzJM%2BE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781238853"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"40df07f92f85a57"}
+
+23:34:14.620 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:34:14.635 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:34:14.644 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:34:14.644 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:8
+* def GetBooking = call read('classpath:examples/herokuapp/GetBooking.feature')
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+classpath:examples/herokuapp/UpdateBooking.feature:8
+23:34:14.670 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:34:14.679 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:34:15.013 [main] DEBUG com.intuit.karate - response time in milliseconds: 333
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:34:14 GMT
+1 < Etag: W/"1b-w9wty5lyYxp9ikcMb77avJiWnfY"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=oxn%2BqAIR%2BaQ0eralsJdnX5GmgfloZ9XIAp8H7V26N3c%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781238854"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=oxn%2BqAIR%2BaQ0eralsJdnX5GmgfloZ9XIAp8H7V26N3c%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781238854"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"1feb70dcd1ec9db"}
+
+23:34:15.025 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:34:15.033 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:34:15.041 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:34:15.042 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:8
+* def GetBooking = call read('classpath:examples/herokuapp/GetBooking.feature')
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+classpath:examples/herokuapp/UpdateBooking.feature:8
+23:36:36.641 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:36:36.704 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:36:37.563 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:36:37.811 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:36:38.491 [main] DEBUG com.intuit.karate - response time in milliseconds: 676
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:36:37 GMT
+1 < Etag: W/"1b-J+Por6c3esDF8Y+cs14PNTCK1qg"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=gtsZhQh8hx94TwMJjrjYHR9LzpW3V86pCVlEqLfPMxI%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781238997"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=gtsZhQh8hx94TwMJjrjYHR9LzpW3V86pCVlEqLfPMxI%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781238997"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"802ede4e4828a21"}
+
+23:36:38.531 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:36:38.542 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:36:38.550 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:36:38.550 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:8
+* def GetBooking = call read('classpath:examples/herokuapp/GetBooking.feature')
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+classpath:examples/herokuapp/UpdateBooking.feature:8
+23:36:38.572 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:36:38.583 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:36:38.932 [main] DEBUG com.intuit.karate - response time in milliseconds: 348
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:36:38 GMT
+1 < Etag: W/"1b-gB8Uz4KV7RH9Z47KaypLtyRNiTc"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=foTcDzN4YAUEwQfcHs9nfWu1Ve25tNT18jGpUZE1OQE%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781238998"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=foTcDzN4YAUEwQfcHs9nfWu1Ve25tNT18jGpUZE1OQE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781238998"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"9922b315137235a"}
+
+23:36:38.962 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:36:38.970 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:36:38.975 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking.feature:4
+* url hostherokuapp
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+23:36:38.975 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:8
+* def GetBooking = call read('classpath:examples/herokuapp/GetBooking.feature')
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+js failed:
+>>>>
+01: hostherokuapp
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "hostherokuapp" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/herokuapp/GetBooking.feature:4
+classpath:examples/herokuapp/UpdateBooking.feature:8
+23:37:14.061 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:37:14.125 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:37:15.013 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:37:15.282 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:37:15.984 [main] DEBUG com.intuit.karate - response time in milliseconds: 699
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:37:15 GMT
+1 < Etag: W/"1b-xHtp6sxL/M/7tBbE7Tg7KK6/DpA"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4HIW7tlhDqHcAvOTOwapG0ERMq5CrRxyl40%2Fgs0qUtQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239035"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=4HIW7tlhDqHcAvOTOwapG0ERMq5CrRxyl40%2Fgs0qUtQ%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239035"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"8d8831c7e60d944"}
+
+23:37:16.018 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.combooking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.combooking
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:16.058 [main] ERROR com.intuit.karate - java.net.UnknownHostException: Host desconocido (restful-booker.herokuapp.combooking), http call failed after 38 milliseconds for url: https://restful-booker.herokuapp.combooking/1
+23:37:16.059 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking/GetBooking.feature:7
+When method get
+http call failed after 38 milliseconds for url: https://restful-booker.herokuapp.combooking/1
+java.net.UnknownHostException: Host desconocido (restful-booker.herokuapp.combooking)
+classpath:examples/herokuapp/GetBooking/GetBooking.feature:7
+23:37:16.061 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:8
+* def GetBooking = call read('classpath:examples/herokuapp/GetBooking/GetBooking.feature')
+http call failed after 38 milliseconds for url: https://restful-booker.herokuapp.combooking/1
+java.net.UnknownHostException: Host desconocido (restful-booker.herokuapp.combooking)
+classpath:examples/herokuapp/GetBooking/GetBooking.feature:7
+classpath:examples/herokuapp/UpdateBooking.feature:8
+23:37:16.079 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:37:16.085 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:37:16.423 [main] DEBUG com.intuit.karate - response time in milliseconds: 336
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:37:15 GMT
+1 < Etag: W/"1b-0X03aNBkVI1fkQJsi4rqcbATtnc"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=4HIW7tlhDqHcAvOTOwapG0ERMq5CrRxyl40%2Fgs0qUtQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239035"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=4HIW7tlhDqHcAvOTOwapG0ERMq5CrRxyl40%2Fgs0qUtQ%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239035"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"da95b1085fb1dec"}
+
+23:37:16.451 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.combooking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.combooking
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:16.452 [main] ERROR com.intuit.karate - java.net.UnknownHostException: restful-booker.herokuapp.combooking, http call failed after 3 milliseconds for url: https://restful-booker.herokuapp.combooking/1
+23:37:16.452 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking/GetBooking.feature:7
+When method get
+http call failed after 3 milliseconds for url: https://restful-booker.herokuapp.combooking/1
+java.net.UnknownHostException: restful-booker.herokuapp.combooking
+classpath:examples/herokuapp/GetBooking/GetBooking.feature:7
+23:37:16.453 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:8
+* def GetBooking = call read('classpath:examples/herokuapp/GetBooking/GetBooking.feature')
+http call failed after 3 milliseconds for url: https://restful-booker.herokuapp.combooking/1
+java.net.UnknownHostException: restful-booker.herokuapp.combooking
+classpath:examples/herokuapp/GetBooking/GetBooking.feature:7
+classpath:examples/herokuapp/UpdateBooking.feature:8
+23:37:57.445 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:37:57.508 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:37:58.373 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:37:58.649 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:37:59.312 [main] DEBUG com.intuit.karate - response time in milliseconds: 658
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:37:58 GMT
+1 < Etag: W/"1b-5yUqUb0hA2vbhweu7UWK9tFN8YE"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=1rOr8eufQiDDTfqgB%2FIQg38AYvJkEYEhCVZRunsMbtA%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239078"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=1rOr8eufQiDDTfqgB%2FIQg38AYvJkEYEhCVZRunsMbtA%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239078"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"302d59603219cb8"}
+
+23:37:59.348 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:59.691 [main] DEBUG com.intuit.karate - response time in milliseconds: 342
+1 < 200
+1 < Content-Length: 140
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:37:58 GMT
+1 < Etag: W/"8c-tA1Nrk0vRTEB8etD2xE9cLcY88o"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=1rOr8eufQiDDTfqgB%2FIQg38AYvJkEYEhCVZRunsMbtA%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239078"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=1rOr8eufQiDDTfqgB%2FIQg38AYvJkEYEhCVZRunsMbtA%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239078"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Jackson","totalprice":334,"depositpaid":true,"bookingdates":{"checkin":"2020-05-14","checkout":"2025-06-03"}}
+
+23:37:59.701 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking/GetBooking.feature:16
+And match $.additionalneeds == "#notnull"
+match failed: EQUALS
+
+classpath:examples/herokuapp/GetBooking/GetBooking.feature:16
+23:37:59.705 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:8
+* def GetBooking = call read('classpath:examples/herokuapp/GetBooking/GetBooking.feature')
+match failed: EQUALS
+
+classpath:examples/herokuapp/GetBooking/GetBooking.feature:16
+classpath:examples/herokuapp/UpdateBooking.feature:8
+23:37:59.729 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:37:59.736 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:38:00.084 [main] DEBUG com.intuit.karate - response time in milliseconds: 347
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:37:59 GMT
+1 < Etag: W/"1b-8gD5fZDJlUpJb4LXhCXGLZhJ8vk"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=SzwOhzmJ4wLwwFh8krzGeRUG3JOg1OZlsasVPrF9gAQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239079"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=SzwOhzmJ4wLwwFh8krzGeRUG3JOg1OZlsasVPrF9gAQ%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239079"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"4f180e4f8487342"}
+
+23:38:00.099 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:38:00.448 [main] DEBUG com.intuit.karate - response time in milliseconds: 347
+1 < 200
+1 < Content-Length: 140
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:37:59 GMT
+1 < Etag: W/"8c-tA1Nrk0vRTEB8etD2xE9cLcY88o"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=SzwOhzmJ4wLwwFh8krzGeRUG3JOg1OZlsasVPrF9gAQ%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239079"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=SzwOhzmJ4wLwwFh8krzGeRUG3JOg1OZlsasVPrF9gAQ%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239079"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Jackson","totalprice":334,"depositpaid":true,"bookingdates":{"checkin":"2020-05-14","checkout":"2025-06-03"}}
+
+23:38:00.456 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/GetBooking/GetBooking.feature:16
+And match $.additionalneeds == "#notnull"
+match failed: EQUALS
+
+classpath:examples/herokuapp/GetBooking/GetBooking.feature:16
+23:38:00.456 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:8
+* def GetBooking = call read('classpath:examples/herokuapp/GetBooking/GetBooking.feature')
+match failed: EQUALS
+
+classpath:examples/herokuapp/GetBooking/GetBooking.feature:16
+classpath:examples/herokuapp/UpdateBooking.feature:8
+23:39:03.158 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:39:03.225 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:39:04.069 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:39:04.322 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:39:04.989 [main] DEBUG com.intuit.karate - response time in milliseconds: 663
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:39:04 GMT
+1 < Etag: W/"1b-72j5146mkBUIvPuBayAaQy4RZ8Y"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=1GX91%2BjPDvhkyDuR6Ef4XYGv8OURKZPlnip9V91UV54%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239144"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=1GX91%2BjPDvhkyDuR6Ef4XYGv8OURKZPlnip9V91UV54%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239144"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"eb99eb5a71c17ad"}
+
+23:39:05.025 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:39:05.401 [main] DEBUG com.intuit.karate - response time in milliseconds: 376
+1 < 200
+1 < Content-Length: 140
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:39:04 GMT
+1 < Etag: W/"8c-tA1Nrk0vRTEB8etD2xE9cLcY88o"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=1GX91%2BjPDvhkyDuR6Ef4XYGv8OURKZPlnip9V91UV54%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239144"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=1GX91%2BjPDvhkyDuR6Ef4XYGv8OURKZPlnip9V91UV54%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239144"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Jackson","totalprice":334,"depositpaid":true,"bookingdates":{"checkin":"2020-05-14","checkout":"2025-06-03"}}
+
+23:39:05.412 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Cookie: token=eb99eb5a71c17ad
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 273
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":"GetBooking.totalprice","depositpaid":"GetBooking.depositpaid","bookingdates":{"checkin":"GetBooking.checkin","checkout":"GetBooking.checkout"},"additionalneeds":"GetBooking.additionalneeds"}
+
+23:39:05.794 [main] DEBUG com.intuit.karate - response time in milliseconds: 381
+1 < 200
+1 < Content-Length: 217
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:39:05 GMT
+1 < Etag: W/"d9-zT09gY0kfFG3OC95eSCyJhNGEH4"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=TnEFiWPC8OZXx3RKhcLa8tM66cuH11vYfNxWCQHQ5A0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239145"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=TnEFiWPC8OZXx3RKhcLa8tM66cuH11vYfNxWCQHQ5A0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239145"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":null,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"GetBooking.additionalneeds"}
+
+23:39:05.802 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:16
+And match $.firstname == GetBooking.firstname
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'GetBooking.firstname'
+  'Jim'
+
+classpath:examples/herokuapp/UpdateBooking.feature:16
+23:39:05.826 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:39:05.834 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:39:06.209 [main] DEBUG com.intuit.karate - response time in milliseconds: 375
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:39:05 GMT
+1 < Etag: W/"1b-FHQbf+SkV0AwagwnZcoehS/KRAQ"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=TnEFiWPC8OZXx3RKhcLa8tM66cuH11vYfNxWCQHQ5A0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239145"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=TnEFiWPC8OZXx3RKhcLa8tM66cuH11vYfNxWCQHQ5A0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239145"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"91aadba3d65d80e"}
+
+23:39:06.222 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:39:06.555 [main] DEBUG com.intuit.karate - response time in milliseconds: 332
+1 < 200
+1 < Content-Length: 217
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:39:05 GMT
+1 < Etag: W/"d9-zT09gY0kfFG3OC95eSCyJhNGEH4"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=TnEFiWPC8OZXx3RKhcLa8tM66cuH11vYfNxWCQHQ5A0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239145"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=TnEFiWPC8OZXx3RKhcLa8tM66cuH11vYfNxWCQHQ5A0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239145"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":null,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"GetBooking.additionalneeds"}
+
+23:39:06.566 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Cookie: token=91aadba3d65d80e
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:39:06.900 [main] DEBUG com.intuit.karate - response time in milliseconds: 332
+1 < 200
+1 < Content-Length: 172
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:39:06 GMT
+1 < Etag: W/"ac-qeW47+TfMI3/VhawT2mMmXz3PyM"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=OMyTHW2LMBU8YFFESTGaNoVchaT1VP9NWzP2l6KvRU0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239146"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=OMyTHW2LMBU8YFFESTGaNoVchaT1VP9NWzP2l6KvRU0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239146"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Mary","lastname":"Jackson","totalprice":674,"depositpaid":false,"bookingdates":{"checkin":"2022-02-16","checkout":"2022-08-29"},"additionalneeds":"Breakfast"}
+
+23:39:06.911 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:32
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 332, url: https://restful-booker.herokuapp.com/booking/2, response: 
+{"firstname":"Mary","lastname":"Jackson","totalprice":674,"depositpaid":false,"bookingdates":{"checkin":"2022-02-16","checkout":"2022-08-29"},"additionalneeds":"Breakfast"}
+classpath:examples/herokuapp/UpdateBooking.feature:32
+23:46:09.577 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:46:09.643 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:46:10.553 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:46:10.818 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:46:11.521 [main] DEBUG com.intuit.karate - response time in milliseconds: 695
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:46:10 GMT
+1 < Etag: W/"1b-z33clenfFUBwNouxrtdwhFODqhQ"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=E%2BDNiGqp1SyplAps%2FpS%2F8ktFeS8YBzruoa3IB%2F05TPU%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239570"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=E%2BDNiGqp1SyplAps%2FpS%2F8ktFeS8YBzruoa3IB%2F05TPU%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239570"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"1ca70828cc5aa07"}
+
+23:46:11.573 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:46:11.916 [main] DEBUG com.intuit.karate - response time in milliseconds: 342
+1 < 200
+1 < Content-Length: 168
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:46:11 GMT
+1 < Etag: W/"a8-7fq7ZjX+ymELctFfeXdSnXxL9bk"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=QyxP5N68t70aw%2BaOskmtSICYP0UCOWzLi7us7vVYug0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239571"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=QyxP5N68t70aw%2BaOskmtSICYP0UCOWzLi7us7vVYug0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239571"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Yen","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+
+23:46:11.950 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Cookie: token=1ca70828cc5aa07
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 273
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":"GetBooking.totalprice","depositpaid":"GetBooking.depositpaid","bookingdates":{"checkin":"GetBooking.checkin","checkout":"GetBooking.checkout"},"additionalneeds":"GetBooking.additionalneeds"}
+
+23:46:12.286 [main] DEBUG com.intuit.karate - response time in milliseconds: 336
+1 < 200
+1 < Content-Length: 217
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:46:11 GMT
+1 < Etag: W/"d9-zT09gY0kfFG3OC95eSCyJhNGEH4"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=QyxP5N68t70aw%2BaOskmtSICYP0UCOWzLi7us7vVYug0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239571"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=QyxP5N68t70aw%2BaOskmtSICYP0UCOWzLi7us7vVYug0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239571"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":null,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"GetBooking.additionalneeds"}
+
+23:46:12.289 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:16
+And match $.firstname == GetBooking.firstname
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'GetBooking.firstname'
+  'Yen'
+
+classpath:examples/herokuapp/UpdateBooking.feature:16
+23:46:12.308 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:46:12.317 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:46:12.654 [main] DEBUG com.intuit.karate - response time in milliseconds: 336
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:46:11 GMT
+1 < Etag: W/"1b-4ga3ZdP2wrku7/bTVNBOxGrvuNE"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=QyxP5N68t70aw%2BaOskmtSICYP0UCOWzLi7us7vVYug0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239571"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=QyxP5N68t70aw%2BaOskmtSICYP0UCOWzLi7us7vVYug0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239571"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"c711390d8940396"}
+
+23:46:12.678 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/1
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:46:14.018 [main] DEBUG com.intuit.karate - response time in milliseconds: 1339
+1 < 200
+1 < Content-Length: 217
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:46:13 GMT
+1 < Etag: W/"d9-zT09gY0kfFG3OC95eSCyJhNGEH4"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=nesA0fjJ%2BlBeTKb2nCEcRZtBZtnzD8LTDwvsQJUsvjM%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239573"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=nesA0fjJ%2BlBeTKb2nCEcRZtBZtnzD8LTDwvsQJUsvjM%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239573"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":null,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"GetBooking.additionalneeds"}
+
+23:46:14.028 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Cookie: token=c711390d8940396
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:46:14.365 [main] DEBUG com.intuit.karate - response time in milliseconds: 337
+1 < 200
+1 < Content-Length: 141
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:46:13 GMT
+1 < Etag: W/"8d-+KIm0a31Lgo0qRjI0wb27SmEsDc"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=nesA0fjJ%2BlBeTKb2nCEcRZtBZtnzD8LTDwvsQJUsvjM%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239573"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=nesA0fjJ%2BlBeTKb2nCEcRZtBZtnzD8LTDwvsQJUsvjM%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239573"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Mary","lastname":"Wilson","totalprice":499,"depositpaid":false,"bookingdates":{"checkin":"2016-06-24","checkout":"2021-10-28"}}
+
+23:46:14.371 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:32
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 337, url: https://restful-booker.herokuapp.com/booking/2, response: 
+{"firstname":"Mary","lastname":"Wilson","totalprice":499,"depositpaid":false,"bookingdates":{"checkin":"2016-06-24","checkout":"2021-10-28"}}
+classpath:examples/herokuapp/UpdateBooking.feature:32
+23:49:03.089 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:49:03.172 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:49:04.302 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:49:04.620 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:49:05.320 [main] DEBUG com.intuit.karate - response time in milliseconds: 697
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:49:04 GMT
+1 < Etag: W/"1b-knYfVpikuWllH0jlAbhERsuQsds"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=djHvVl5lMnhzqywYmCDnGE34J5uyydWAKZmWLvby8YM%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239744"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=djHvVl5lMnhzqywYmCDnGE34J5uyydWAKZmWLvby8YM%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239744"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"f621a6c51b47077"}
+
+23:49:05.365 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:49:05.711 [main] DEBUG com.intuit.karate - response time in milliseconds: 346
+1 < 200
+1 < Content-Length: 141
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:49:05 GMT
+1 < Etag: W/"8d-+KIm0a31Lgo0qRjI0wb27SmEsDc"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=RxElL5Y3bcWTHFB3JpO%2FufuAkwJRrsS43b8Bv%2Bps27I%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239745"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=RxElL5Y3bcWTHFB3JpO%2FufuAkwJRrsS43b8Bv%2Bps27I%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239745"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Mary","lastname":"Wilson","totalprice":499,"depositpaid":false,"bookingdates":{"checkin":"2016-06-24","checkout":"2021-10-28"}}
+
+23:49:05.722 [main] INFO  com.intuit.karate - [print] GetBooking => {
+  "firstname": "Mary",
+  "additionalneeds": null,
+  "responseHeaders": {
+    "Content-Length": [
+      "141"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 12 Jun 2026 04:49:05 GMT"
+    ],
+    "Etag": [
+      "W/\"8d-+KIm0a31Lgo0qRjI0wb27SmEsDc\""
+    ],
+    "Nel": [
+      "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+    ],
+    "Report-To": [
+      "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=RxElL5Y3bcWTHFB3JpO%2FufuAkwJRrsS43b8Bv%2Bps27I%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1781239745\"}],\"max_age\":3600}"
+    ],
+    "Reporting-Endpoints": [
+      "heroku-nel=\"https://nel.heroku.com/reports?s=RxElL5Y3bcWTHFB3JpO%2FufuAkwJRrsS43b8Bv%2Bps27I%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239745\""
+    ],
+    "Server": [
+      "Heroku"
+    ],
+    "Via": [
+      "1.1 heroku-router"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "checkin": "2016-06-24",
+  "responseTime": 346,
+  "response": {
+    "firstname": "Mary",
+    "lastname": "Wilson",
+    "totalprice": 499,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2016-06-24",
+      "checkout": "2021-10-28"
+    }
+  },
+  "totalprice": 499,
+  "depositpaid": false,
+  "responseStatus": 200,
+  "checkout": "2021-10-28",
+  "lastname": "Wilson"
+}
+ 
+23:49:05.726 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Cookie: token=f621a6c51b47077
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 273
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":"GetBooking.totalprice","depositpaid":"GetBooking.depositpaid","bookingdates":{"checkin":"GetBooking.checkin","checkout":"GetBooking.checkout"},"additionalneeds":"GetBooking.additionalneeds"}
+
+23:49:06.064 [main] DEBUG com.intuit.karate - response time in milliseconds: 337
+1 < 200
+1 < Content-Length: 217
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:49:05 GMT
+1 < Etag: W/"d9-zT09gY0kfFG3OC95eSCyJhNGEH4"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=RxElL5Y3bcWTHFB3JpO%2FufuAkwJRrsS43b8Bv%2Bps27I%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239745"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=RxElL5Y3bcWTHFB3JpO%2FufuAkwJRrsS43b8Bv%2Bps27I%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239745"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":null,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"GetBooking.additionalneeds"}
+
+23:49:06.072 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:17
+And match $.firstname == GetBooking.firstname
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'GetBooking.firstname'
+  'Mary'
+
+classpath:examples/herokuapp/UpdateBooking.feature:17
+23:49:06.104 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:49:06.111 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:49:06.463 [main] DEBUG com.intuit.karate - response time in milliseconds: 351
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:49:05 GMT
+1 < Etag: W/"1b-O4kuG0oK/m0S58slZn9jc34ew/0"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=RxElL5Y3bcWTHFB3JpO%2FufuAkwJRrsS43b8Bv%2Bps27I%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239745"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=RxElL5Y3bcWTHFB3JpO%2FufuAkwJRrsS43b8Bv%2Bps27I%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239745"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"1ecc14bb7d7fd26"}
+
+23:49:06.492 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:49:06.876 [main] DEBUG com.intuit.karate - response time in milliseconds: 383
+1 < 200
+1 < Content-Length: 217
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:49:06 GMT
+1 < Etag: W/"d9-zT09gY0kfFG3OC95eSCyJhNGEH4"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Dafc34ycXvs5kO4IvJA0d0da7NasbXQQgi9VMybehBo%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239746"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Dafc34ycXvs5kO4IvJA0d0da7NasbXQQgi9VMybehBo%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239746"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":null,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"GetBooking.additionalneeds"}
+
+23:49:06.891 [main] INFO  com.intuit.karate - [print] GetBooking => {
+  "firstname": "GetBooking.firstname",
+  "additionalneeds": "GetBooking.additionalneeds",
+  "responseHeaders": {
+    "Content-Length": [
+      "217"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 12 Jun 2026 04:49:06 GMT"
+    ],
+    "Etag": [
+      "W/\"d9-zT09gY0kfFG3OC95eSCyJhNGEH4\""
+    ],
+    "Nel": [
+      "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+    ],
+    "Report-To": [
+      "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=Dafc34ycXvs5kO4IvJA0d0da7NasbXQQgi9VMybehBo%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1781239746\"}],\"max_age\":3600}"
+    ],
+    "Reporting-Endpoints": [
+      "heroku-nel=\"https://nel.heroku.com/reports?s=Dafc34ycXvs5kO4IvJA0d0da7NasbXQQgi9VMybehBo%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239746\""
+    ],
+    "Server": [
+      "Heroku"
+    ],
+    "Via": [
+      "1.1 heroku-router"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "checkin": "0NaN-aN-aN",
+  "responseTime": 383,
+  "response": {
+    "firstname": "GetBooking.firstname",
+    "lastname": "GetBooking.lastname",
+    "totalprice": null,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "0NaN-aN-aN",
+      "checkout": "0NaN-aN-aN"
+    },
+    "additionalneeds": "GetBooking.additionalneeds"
+  },
+  "totalprice": null,
+  "depositpaid": true,
+  "responseStatus": 200,
+  "checkout": "0NaN-aN-aN",
+  "lastname": "GetBooking.lastname"
+}
+ 
+23:49:06.897 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Cookie: token=1ecc14bb7d7fd26
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:49:07.231 [main] DEBUG com.intuit.karate - response time in milliseconds: 334
+1 < 200
+1 < Content-Length: 217
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:49:06 GMT
+1 < Etag: W/"d9-zT09gY0kfFG3OC95eSCyJhNGEH4"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Dafc34ycXvs5kO4IvJA0d0da7NasbXQQgi9VMybehBo%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781239746"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Dafc34ycXvs5kO4IvJA0d0da7NasbXQQgi9VMybehBo%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781239746"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":null,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"GetBooking.additionalneeds"}
+
+23:49:07.241 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:33
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 334, url: https://restful-booker.herokuapp.com/booking/2, response: 
+{"firstname":"GetBooking.firstname","lastname":"GetBooking.lastname","totalprice":null,"depositpaid":true,"bookingdates":{"checkin":"0NaN-aN-aN","checkout":"0NaN-aN-aN"},"additionalneeds":"GetBooking.additionalneeds"}
+classpath:examples/herokuapp/UpdateBooking.feature:33
+23:53:44.900 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:53:44.964 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:53:46.077 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:53:46.338 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:53:47.052 [main] DEBUG com.intuit.karate - response time in milliseconds: 711
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:53:46 GMT
+1 < Etag: W/"1b-RHZN3T13EBELGP35viH5t9RKMq4"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=f%2BNCGF3Pkl%2FWvyYBSd4muCSVEHuAnGwanS1PFb%2Fh82I%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240026"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=f%2BNCGF3Pkl%2FWvyYBSd4muCSVEHuAnGwanS1PFb%2Fh82I%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240026"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"73cce1b98345db6"}
+
+23:53:47.090 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:53:47.475 [main] DEBUG com.intuit.karate - response time in milliseconds: 384
+1 < 200
+1 < Content-Length: 139
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:53:46 GMT
+1 < Etag: W/"8b-2spzBXHKWQHyo/P+jfnQQWoBLl8"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=f%2BNCGF3Pkl%2FWvyYBSd4muCSVEHuAnGwanS1PFb%2Fh82I%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240026"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=f%2BNCGF3Pkl%2FWvyYBSd4muCSVEHuAnGwanS1PFb%2Fh82I%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240026"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"}}
+
+23:53:47.485 [main] INFO  com.intuit.karate - [print] GetBooking => {
+  "firstname": "Jim",
+  "additionalneeds": null,
+  "responseHeaders": {
+    "Content-Length": [
+      "139"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 12 Jun 2026 04:53:46 GMT"
+    ],
+    "Etag": [
+      "W/\"8b-2spzBXHKWQHyo/P+jfnQQWoBLl8\""
+    ],
+    "Nel": [
+      "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+    ],
+    "Report-To": [
+      "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=f%2BNCGF3Pkl%2FWvyYBSd4muCSVEHuAnGwanS1PFb%2Fh82I%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1781240026\"}],\"max_age\":3600}"
+    ],
+    "Reporting-Endpoints": [
+      "heroku-nel=\"https://nel.heroku.com/reports?s=f%2BNCGF3Pkl%2FWvyYBSd4muCSVEHuAnGwanS1PFb%2Fh82I%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240026\""
+    ],
+    "Server": [
+      "Heroku"
+    ],
+    "Via": [
+      "1.1 heroku-router"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "checkin": "2024-02-12",
+  "responseTime": 384,
+  "response": {
+    "firstname": "Jim",
+    "lastname": "Smith",
+    "totalprice": 135,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2024-02-12",
+      "checkout": "2024-12-04"
+    }
+  },
+  "totalprice": 135,
+  "depositpaid": false,
+  "responseStatus": 200,
+  "checkout": "2024-12-04",
+  "lastname": "Smith"
+}
+ 
+23:53:47.492 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Cookie: token=73cce1b98345db6
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 162
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:53:47.850 [main] DEBUG com.intuit.karate - response time in milliseconds: 357
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:53:47 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qG5SzRlOvz1EnijJSENBUdmcz4pfbh6YUstV5j7f8QA%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240027"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=qG5SzRlOvz1EnijJSENBUdmcz4pfbh6YUstV5j7f8QA%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240027"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:53:47.875 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:19
+And match $.totalprice == #(GetBooking.totalprice)
+js failed:
+>>>>
+01: #(GetBooking.totalprice)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:0 Expected an operand but found error
+#(GetBooking.totalprice)
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:428)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2204)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1807)
+- com.intuit.karate.core.ScenarioEngine.matchResult(ScenarioEngine.java:167)
+
+classpath:examples/herokuapp/UpdateBooking.feature:19
+23:53:47.892 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:53:47.898 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:53:48.269 [main] DEBUG com.intuit.karate - response time in milliseconds: 371
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:53:47 GMT
+1 < Etag: W/"1b-U0fyCsqffSLmBMegNC/C7zMQs4M"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qG5SzRlOvz1EnijJSENBUdmcz4pfbh6YUstV5j7f8QA%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240027"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=qG5SzRlOvz1EnijJSENBUdmcz4pfbh6YUstV5j7f8QA%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240027"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"3f28440172a0541"}
+
+23:53:48.282 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:53:48.629 [main] DEBUG com.intuit.karate - response time in milliseconds: 346
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:53:47 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=qG5SzRlOvz1EnijJSENBUdmcz4pfbh6YUstV5j7f8QA%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240027"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=qG5SzRlOvz1EnijJSENBUdmcz4pfbh6YUstV5j7f8QA%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240027"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:53:48.641 [main] INFO  com.intuit.karate - [print] GetBooking => {
+  "firstname": "Jim",
+  "additionalneeds": null,
+  "responseHeaders": {
+    "Content-Length": [
+      "162"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 12 Jun 2026 04:53:47 GMT"
+    ],
+    "Etag": [
+      "W/\"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw\""
+    ],
+    "Nel": [
+      "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+    ],
+    "Report-To": [
+      "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=qG5SzRlOvz1EnijJSENBUdmcz4pfbh6YUstV5j7f8QA%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1781240027\"}],\"max_age\":3600}"
+    ],
+    "Reporting-Endpoints": [
+      "heroku-nel=\"https://nel.heroku.com/reports?s=qG5SzRlOvz1EnijJSENBUdmcz4pfbh6YUstV5j7f8QA%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240027\""
+    ],
+    "Server": [
+      "Heroku"
+    ],
+    "Via": [
+      "1.1 heroku-router"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "checkin": "2024-02-12",
+  "responseTime": 346,
+  "response": {
+    "firstname": "Jim",
+    "lastname": "Smith",
+    "totalprice": 135,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2024-02-12",
+      "checkout": "2024-12-04"
+    },
+    "additionalneeds": null
+  },
+  "totalprice": 135,
+  "depositpaid": false,
+  "responseStatus": 200,
+  "checkout": "2024-12-04",
+  "lastname": "Smith"
+}
+ 
+23:53:48.647 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Cookie: token=3f28440172a0541
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:53:48.992 [main] DEBUG com.intuit.karate - response time in milliseconds: 343
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:53:48 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=2pTeeMg%2BQGuI5bN81WXQuAqhN8%2FQ%2FcUqj%2FQU8kuZ%2F2A%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240028"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=2pTeeMg%2BQGuI5bN81WXQuAqhN8%2FQ%2FcUqj%2FQU8kuZ%2F2A%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240028"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:53:48.999 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:33
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 343, url: https://restful-booker.herokuapp.com/booking/2, response: 
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+classpath:examples/herokuapp/UpdateBooking.feature:33
+23:55:09.008 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:55:09.072 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:55:10.021 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:55:10.272 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:55:10.949 [main] DEBUG com.intuit.karate - response time in milliseconds: 674
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:10 GMT
+1 < Etag: W/"1b-Y+pc+7ykmrZSR++gsEye0Tc7MAs"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=c1YLZn23tRCQgxBJSXMepJndq%2F3KTuxz%2B1mi9guIewE%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240110"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=c1YLZn23tRCQgxBJSXMepJndq%2F3KTuxz%2B1mi9guIewE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240110"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"619658731edb60c"}
+
+23:55:10.986 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:55:11.332 [main] DEBUG com.intuit.karate - response time in milliseconds: 345
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:10 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=c1YLZn23tRCQgxBJSXMepJndq%2F3KTuxz%2B1mi9guIewE%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240110"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=c1YLZn23tRCQgxBJSXMepJndq%2F3KTuxz%2B1mi9guIewE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240110"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:55:11.344 [main] INFO  com.intuit.karate - [print] GetBooking => {
+  "firstname": "Jim",
+  "additionalneeds": null,
+  "responseHeaders": {
+    "Content-Length": [
+      "162"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 12 Jun 2026 04:55:10 GMT"
+    ],
+    "Etag": [
+      "W/\"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw\""
+    ],
+    "Nel": [
+      "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+    ],
+    "Report-To": [
+      "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=c1YLZn23tRCQgxBJSXMepJndq%2F3KTuxz%2B1mi9guIewE%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1781240110\"}],\"max_age\":3600}"
+    ],
+    "Reporting-Endpoints": [
+      "heroku-nel=\"https://nel.heroku.com/reports?s=c1YLZn23tRCQgxBJSXMepJndq%2F3KTuxz%2B1mi9guIewE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240110\""
+    ],
+    "Server": [
+      "Heroku"
+    ],
+    "Via": [
+      "1.1 heroku-router"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "checkin": "2024-02-12",
+  "responseTime": 345,
+  "response": {
+    "firstname": "Jim",
+    "lastname": "Smith",
+    "totalprice": 135,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2024-02-12",
+      "checkout": "2024-12-04"
+    },
+    "additionalneeds": null
+  },
+  "totalprice": 135,
+  "depositpaid": false,
+  "responseStatus": 200,
+  "checkout": "2024-12-04",
+  "lastname": "Smith"
+}
+ 
+23:55:11.354 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Cookie: token=619658731edb60c
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 162
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:55:11.702 [main] DEBUG com.intuit.karate - response time in milliseconds: 347
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:10 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=c1YLZn23tRCQgxBJSXMepJndq%2F3KTuxz%2B1mi9guIewE%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240110"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=c1YLZn23tRCQgxBJSXMepJndq%2F3KTuxz%2B1mi9guIewE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240110"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:55:11.738 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:55:11.744 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:55:12.081 [main] DEBUG com.intuit.karate - response time in milliseconds: 337
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:11 GMT
+1 < Etag: W/"1b-Klx+guH1DaioH2pjhyuUJSgGY5c"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=gTVPgYcGnjV%2FLvxE3QQpMnH6JBGcFlXjbWuted3YEns%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240111"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=gTVPgYcGnjV%2FLvxE3QQpMnH6JBGcFlXjbWuted3YEns%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240111"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"a466e38590822dc"}
+
+23:55:12.089 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:55:12.420 [main] DEBUG com.intuit.karate - response time in milliseconds: 330
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:11 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=gTVPgYcGnjV%2FLvxE3QQpMnH6JBGcFlXjbWuted3YEns%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240111"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=gTVPgYcGnjV%2FLvxE3QQpMnH6JBGcFlXjbWuted3YEns%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240111"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:55:12.427 [main] INFO  com.intuit.karate - [print] GetBooking => {
+  "firstname": "Jim",
+  "additionalneeds": null,
+  "responseHeaders": {
+    "Content-Length": [
+      "162"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 12 Jun 2026 04:55:11 GMT"
+    ],
+    "Etag": [
+      "W/\"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw\""
+    ],
+    "Nel": [
+      "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+    ],
+    "Report-To": [
+      "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=gTVPgYcGnjV%2FLvxE3QQpMnH6JBGcFlXjbWuted3YEns%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1781240111\"}],\"max_age\":3600}"
+    ],
+    "Reporting-Endpoints": [
+      "heroku-nel=\"https://nel.heroku.com/reports?s=gTVPgYcGnjV%2FLvxE3QQpMnH6JBGcFlXjbWuted3YEns%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240111\""
+    ],
+    "Server": [
+      "Heroku"
+    ],
+    "Via": [
+      "1.1 heroku-router"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "checkin": "2024-02-12",
+  "responseTime": 330,
+  "response": {
+    "firstname": "Jim",
+    "lastname": "Smith",
+    "totalprice": 135,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2024-02-12",
+      "checkout": "2024-12-04"
+    },
+    "additionalneeds": null
+  },
+  "totalprice": 135,
+  "depositpaid": false,
+  "responseStatus": 200,
+  "checkout": "2024-12-04",
+  "lastname": "Smith"
+}
+ 
+23:55:12.432 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Cookie: token=a466e38590822dc
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:55:12.813 [main] DEBUG com.intuit.karate - response time in milliseconds: 380
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:12 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=gjwgUxUI63g6R6LPOTgLfn1WF%2BL5doU2h0YKSL4aOeY%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240112"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=gjwgUxUI63g6R6LPOTgLfn1WF%2BL5doU2h0YKSL4aOeY%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240112"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:55:12.830 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:33
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 380, url: https://restful-booker.herokuapp.com/booking/2, response: 
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+classpath:examples/herokuapp/UpdateBooking.feature:33
+23:55:40.832 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:55:40.895 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:55:41.816 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:55:42.091 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:55:42.841 [main] DEBUG com.intuit.karate - response time in milliseconds: 744
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:42 GMT
+1 < Etag: W/"1b-L/ZbWluIZam+9iHqO0NNGMeyHiE"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=HUs0s%2FyZgfnDOgF81vyMYCUNW8xeN8UaNuUzIu%2BxI%2BY%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240142"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=HUs0s%2FyZgfnDOgF81vyMYCUNW8xeN8UaNuUzIu%2BxI%2BY%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240142"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"86a178d659c58df"}
+
+23:55:42.892 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:55:43.266 [main] DEBUG com.intuit.karate - response time in milliseconds: 373
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:42 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=HUs0s%2FyZgfnDOgF81vyMYCUNW8xeN8UaNuUzIu%2BxI%2BY%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240142"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=HUs0s%2FyZgfnDOgF81vyMYCUNW8xeN8UaNuUzIu%2BxI%2BY%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240142"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:55:43.273 [main] INFO  com.intuit.karate - [print] GetBooking => {
+  "firstname": "Jim",
+  "additionalneeds": null,
+  "responseHeaders": {
+    "Content-Length": [
+      "162"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 12 Jun 2026 04:55:42 GMT"
+    ],
+    "Etag": [
+      "W/\"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw\""
+    ],
+    "Nel": [
+      "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+    ],
+    "Report-To": [
+      "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=HUs0s%2FyZgfnDOgF81vyMYCUNW8xeN8UaNuUzIu%2BxI%2BY%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1781240142\"}],\"max_age\":3600}"
+    ],
+    "Reporting-Endpoints": [
+      "heroku-nel=\"https://nel.heroku.com/reports?s=HUs0s%2FyZgfnDOgF81vyMYCUNW8xeN8UaNuUzIu%2BxI%2BY%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240142\""
+    ],
+    "Server": [
+      "Heroku"
+    ],
+    "Via": [
+      "1.1 heroku-router"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "checkin": "2024-02-12",
+  "responseTime": 373,
+  "response": {
+    "firstname": "Jim",
+    "lastname": "Smith",
+    "totalprice": 135,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2024-02-12",
+      "checkout": "2024-12-04"
+    },
+    "additionalneeds": null
+  },
+  "totalprice": 135,
+  "depositpaid": false,
+  "responseStatus": 200,
+  "checkout": "2024-12-04",
+  "lastname": "Smith"
+}
+ 
+23:55:43.278 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Cookie: token=86a178d659c58df
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 162
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:55:43.620 [main] DEBUG com.intuit.karate - response time in milliseconds: 341
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:42 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=HUs0s%2FyZgfnDOgF81vyMYCUNW8xeN8UaNuUzIu%2BxI%2BY%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240142"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=HUs0s%2FyZgfnDOgF81vyMYCUNW8xeN8UaNuUzIu%2BxI%2BY%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240142"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:55:43.657 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:55:43.673 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:55:44.011 [main] DEBUG com.intuit.karate - response time in milliseconds: 338
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:43 GMT
+1 < Etag: W/"1b-POMtQfPjHhUAlXerkbPJ30/mGZM"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=hl3Xvzl92reMprW0q%2B8I6JuwXkH7YDA40vWHB8BVvd0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240143"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=hl3Xvzl92reMprW0q%2B8I6JuwXkH7YDA40vWHB8BVvd0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240143"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"607d34638742a35"}
+
+23:55:44.021 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:55:45.424 [main] DEBUG com.intuit.karate - response time in milliseconds: 1402
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:44 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=7KlgTS0bxoILCJigTXLRFSQ9RgFABF0Jf%2BljCKGo8i4%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240144"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=7KlgTS0bxoILCJigTXLRFSQ9RgFABF0Jf%2BljCKGo8i4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240144"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:55:45.433 [main] INFO  com.intuit.karate - [print] GetBooking => {
+  "firstname": "Jim",
+  "additionalneeds": null,
+  "responseHeaders": {
+    "Content-Length": [
+      "162"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 12 Jun 2026 04:55:44 GMT"
+    ],
+    "Etag": [
+      "W/\"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw\""
+    ],
+    "Nel": [
+      "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+    ],
+    "Report-To": [
+      "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=7KlgTS0bxoILCJigTXLRFSQ9RgFABF0Jf%2BljCKGo8i4%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1781240144\"}],\"max_age\":3600}"
+    ],
+    "Reporting-Endpoints": [
+      "heroku-nel=\"https://nel.heroku.com/reports?s=7KlgTS0bxoILCJigTXLRFSQ9RgFABF0Jf%2BljCKGo8i4%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240144\""
+    ],
+    "Server": [
+      "Heroku"
+    ],
+    "Via": [
+      "1.1 heroku-router"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "checkin": "2024-02-12",
+  "responseTime": 1402,
+  "response": {
+    "firstname": "Jim",
+    "lastname": "Smith",
+    "totalprice": 135,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2024-02-12",
+      "checkout": "2024-12-04"
+    },
+    "additionalneeds": null
+  },
+  "totalprice": 135,
+  "depositpaid": false,
+  "responseStatus": 200,
+  "checkout": "2024-12-04",
+  "lastname": "Smith"
+}
+ 
+23:55:45.436 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5321521
+1 > Accept: application/json
+1 > Cookie: token=607d34638742a35
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:55:45.773 [main] DEBUG com.intuit.karate - response time in milliseconds: 336
+1 < 400
+1 < Content-Length: 11
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:55:45 GMT
+1 < Etag: W/"b-EFiDB1U+dmqzx9Mo2UjcZ1SJPO8"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=TskytvX8OzlvFOs3nseAtvenWA2nLbLSaWd87RWcs8M%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240145"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=TskytvX8OzlvFOs3nseAtvenWA2nLbLSaWd87RWcs8M%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240145"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+Bad Request
+
+23:55:45.782 [main] ERROR com.intuit.karate - classpath:examples/herokuapp/UpdateBooking.feature:33
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 336, url: https://restful-booker.herokuapp.com/booking/5321521, response: 
+Bad Request
+classpath:examples/herokuapp/UpdateBooking.feature:33
+23:56:21.365 [main] INFO  com.intuit.karate.Runner - karate.env is: 'dev'
+23:56:21.437 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:56:22.407 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:56:22.652 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:56:23.396 [main] DEBUG com.intuit.karate - response time in milliseconds: 738
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:56:22 GMT
+1 < Etag: W/"1b-G+KeF15VoplO1rw+U9IHtZ6cMYw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Lqbplct%2B6SHP0SzW5uvwNzZH0NI0VOi0IgwBwAVDweo%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240182"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Lqbplct%2B6SHP0SzW5uvwNzZH0NI0VOi0IgwBwAVDweo%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240182"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"16a8187634396db"}
+
+23:56:23.437 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:56:24.774 [main] DEBUG com.intuit.karate - response time in milliseconds: 1336
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:56:24 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=kns8JTvG0zG4HAn5iq0t2DK9gTOsd%2BTPthE5nK3xeQk%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240184"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=kns8JTvG0zG4HAn5iq0t2DK9gTOsd%2BTPthE5nK3xeQk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240184"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:56:24.785 [main] INFO  com.intuit.karate - [print] GetBooking => {
+  "firstname": "Jim",
+  "additionalneeds": null,
+  "responseHeaders": {
+    "Content-Length": [
+      "162"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 12 Jun 2026 04:56:24 GMT"
+    ],
+    "Etag": [
+      "W/\"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw\""
+    ],
+    "Nel": [
+      "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+    ],
+    "Report-To": [
+      "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=kns8JTvG0zG4HAn5iq0t2DK9gTOsd%2BTPthE5nK3xeQk%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1781240184\"}],\"max_age\":3600}"
+    ],
+    "Reporting-Endpoints": [
+      "heroku-nel=\"https://nel.heroku.com/reports?s=kns8JTvG0zG4HAn5iq0t2DK9gTOsd%2BTPthE5nK3xeQk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240184\""
+    ],
+    "Server": [
+      "Heroku"
+    ],
+    "Via": [
+      "1.1 heroku-router"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "checkin": "2024-02-12",
+  "responseTime": 1336,
+  "response": {
+    "firstname": "Jim",
+    "lastname": "Smith",
+    "totalprice": 135,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2024-02-12",
+      "checkout": "2024-12-04"
+    },
+    "additionalneeds": null
+  },
+  "totalprice": 135,
+  "depositpaid": false,
+  "responseStatus": 200,
+  "checkout": "2024-12-04",
+  "lastname": "Smith"
+}
+ 
+23:56:24.794 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Cookie: token=16a8187634396db
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 162
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:56:25.130 [main] DEBUG com.intuit.karate - response time in milliseconds: 334
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:56:24 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=kns8JTvG0zG4HAn5iq0t2DK9gTOsd%2BTPthE5nK3xeQk%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240184"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=kns8JTvG0zG4HAn5iq0t2DK9gTOsd%2BTPthE5nK3xeQk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240184"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:56:25.159 [main] INFO  com.intuit.karate - karate.env system property was: dev 
+23:56:25.168 [main] DEBUG com.intuit.karate - request:
+1 > POST https://restful-booker.herokuapp.com/auth
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 45
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+{"username":"admin","password":"password123"}
+
+23:56:25.512 [main] DEBUG com.intuit.karate - response time in milliseconds: 343
+1 < 200
+1 < Content-Length: 27
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:56:24 GMT
+1 < Etag: W/"1b-pbWoEvFTTRTMjh042bIAsJCIEL0"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=kns8JTvG0zG4HAn5iq0t2DK9gTOsd%2BTPthE5nK3xeQk%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240184"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=kns8JTvG0zG4HAn5iq0t2DK9gTOsd%2BTPthE5nK3xeQk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240184"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"token":"469a99d0f7c10ad"}
+
+23:56:25.532 [main] DEBUG com.intuit.karate - request:
+1 > GET https://restful-booker.herokuapp.com/booking/2
+1 > Accept: application/json
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:56:25.910 [main] DEBUG com.intuit.karate - response time in milliseconds: 376
+1 < 200
+1 < Content-Length: 162
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:56:25 GMT
+1 < Etag: W/"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ArxNJX4wOWvnM%2BccoB3NNAXMzDqHSAl7aZZgpGS%2FfE0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240185"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=ArxNJX4wOWvnM%2BccoB3NNAXMzDqHSAl7aZZgpGS%2FfE0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240185"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+{"firstname":"Jim","lastname":"Smith","totalprice":135,"depositpaid":false,"bookingdates":{"checkin":"2024-02-12","checkout":"2024-12-04"},"additionalneeds":null}
+
+23:56:25.915 [main] INFO  com.intuit.karate - [print] GetBooking => {
+  "firstname": "Jim",
+  "additionalneeds": null,
+  "responseHeaders": {
+    "Content-Length": [
+      "162"
+    ],
+    "Content-Type": [
+      "application/json; charset=utf-8"
+    ],
+    "Date": [
+      "Fri, 12 Jun 2026 04:56:25 GMT"
+    ],
+    "Etag": [
+      "W/\"a2-ajfVkRG1CPlgId2jtqYZgsdRmpw\""
+    ],
+    "Nel": [
+      "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+    ],
+    "Report-To": [
+      "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=ArxNJX4wOWvnM%2BccoB3NNAXMzDqHSAl7aZZgpGS%2FfE0%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1781240185\"}],\"max_age\":3600}"
+    ],
+    "Reporting-Endpoints": [
+      "heroku-nel=\"https://nel.heroku.com/reports?s=ArxNJX4wOWvnM%2BccoB3NNAXMzDqHSAl7aZZgpGS%2FfE0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240185\""
+    ],
+    "Server": [
+      "Heroku"
+    ],
+    "Via": [
+      "1.1 heroku-router"
+    ],
+    "X-Powered-By": [
+      "Express"
+    ],
+    "Set-Cookie": [
+    ]
+  },
+  "checkin": "2024-02-12",
+  "responseTime": 376,
+  "response": {
+    "firstname": "Jim",
+    "lastname": "Smith",
+    "totalprice": 135,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2024-02-12",
+      "checkout": "2024-12-04"
+    },
+    "additionalneeds": null
+  },
+  "totalprice": 135,
+  "depositpaid": false,
+  "responseStatus": 200,
+  "checkout": "2024-12-04",
+  "lastname": "Smith"
+}
+ 
+23:56:25.918 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://restful-booker.herokuapp.com/booking/5321521
+1 > Accept: application/json
+1 > Cookie: token=469a99d0f7c10ad
+1 > Host: restful-booker.herokuapp.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:56:26.262 [main] DEBUG com.intuit.karate - response time in milliseconds: 343
+1 < 400
+1 < Content-Length: 11
+1 < Content-Type: text/plain; charset=utf-8
+1 < Date: Fri, 12 Jun 2026 04:56:25 GMT
+1 < Etag: W/"b-EFiDB1U+dmqzx9Mo2UjcZ1SJPO8"
+1 < Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+1 < Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ArxNJX4wOWvnM%2BccoB3NNAXMzDqHSAl7aZZgpGS%2FfE0%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1781240185"}],"max_age":3600}
+1 < Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=ArxNJX4wOWvnM%2BccoB3NNAXMzDqHSAl7aZZgpGS%2FfE0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1781240185"
+1 < Server: Heroku
+1 < Via: 1.1 heroku-router
+1 < X-Powered-By: Express
+Bad Request
+
